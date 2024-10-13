@@ -1,0 +1,25 @@
+{
+	"type": "cameraPostProcess",
+	"nodes": {
+		"OUT": {
+			"type": "null",
+			"flags": {
+				"display": true
+			}
+		},
+		"asciiEffect1": {
+			"type": "asciiEffect",
+			"flags": {
+				"display": true
+			}
+		}
+	},
+	"params": {
+		"tTextureType": 1,
+		"textureType": 1016
+	},
+	"inputs": ["cameraRenderer1"],
+	"flags": {
+		"display": true
+	}
+}
